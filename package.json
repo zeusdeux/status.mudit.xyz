@@ -20,5 +20,18 @@
   "main": "app.js",
   "devDependencies": {},
   "author": "Mudit Ameta",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeusdeux/status.mudit.xyz.git"
+  },
+  "keywords": [
+    "mudit",
+    "ameta",
+    "status"
+  ],
+  "bugs": {
+    "url": "https://github.com/zeusdeux/status.mudit.xyz/issues"
+  },
+  "homepage": "https://github.com/zeusdeux/status.mudit.xyz#readme"
 }
