@@ -6,7 +6,7 @@ var path = require('path');
 var low = require('lowdb');
 var db = low(path.resolve(__dirname, '../db/index.json'))('status-list');
 var cp = require('child_process');
-const totalImages = process.env.TOTAL_IMAGES || 4; // no of images for each status of mine
+const totalImages = process.env.TOTAL_IMAGES || 5; // no of images for each status of mine
 
 
 /* Generate random int mod by total */
