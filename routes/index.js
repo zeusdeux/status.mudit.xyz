@@ -53,4 +53,14 @@ router.post('/iam', function(req, res, next) {
   });
 });
 
+/* GET current status as json */
+router.get('/iam', function(req, res, next) {
+  try {
+    res.json(db.last());
+  }
+  catch(e) {
+    next(e);
+  }
+});
+
 module.exports = router;
